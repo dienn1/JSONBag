@@ -26,6 +26,7 @@ if __name__ == '__main__':
         # connect4_const,
         # dotsandboxes_const
     ]
+    n = 1
     dataset_names = ["agent", "param", "seed"]
     dataset_colors = ["red", "blue", "green"]
     seed = None
@@ -49,7 +50,6 @@ if __name__ == '__main__':
         (jensen_shannon_distance, "JSD"),
     ]
     t = time.time()
-    n = 1
     verbose = False
     cmap = "Greys"
     if len(n_shots_list) > 1:
