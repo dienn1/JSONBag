@@ -1,6 +1,7 @@
 # JSONBag: A generic game trajectory representation
 
 ## The Paper
+[The Paper](https://github.com/dienn1/JSONBag/blob/main/JSONGameRepresentation-final-frfr.pdf)
 
 ## Overview
 Run **analysis_main.py** for the main results with PNNS using JSD.
