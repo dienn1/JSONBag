@@ -171,9 +171,6 @@ if __name__ == "__main__":
         # connect4_const,
         # dotsandboxes_const
     ]
-    dataset_names = ["agent", "param", "seed"]
-    # tokenize_mode: Literal["both", "ordered", "unordered", "char"] = "char"
-    game_state_type = "noHistory/"
     n = 1
     model = [
         (RandomForestClassifier(n_estimators=100), "RandomForestClassifier"),
@@ -186,6 +183,9 @@ if __name__ == "__main__":
         # (NearestPrototypeSearch(euclidean_dist_vec), "EuclideanDistance"),
         # (NearestPrototypeSearch(jensenshannon), "JSD")
     ]
+    dataset_names = ["agent", "param", "seed"]
+    # tokenize_mode: Literal["both", "ordered", "unordered", "char"] = "char"
+    game_state_type = "noHistory/"
     # scale_mode = "row_normalized"
     # scale_mode = "range"
     # scale_mode = "standard"
