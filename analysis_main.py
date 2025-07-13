@@ -181,7 +181,7 @@ if __name__ == '__main__':
     else:
         result_pd = pd.DataFrame.from_dict(result_dict)
         # result_pd = result_pd.rename(index={0: "Hand-crafted", 1: "JSON-Bag", 2: "JSON-Char"})
-        result_pd = result_pd.rename(index={0: "JSON-Cosine"})
+        # result_pd = result_pd.rename(index={0: "JSON-Cosine"})
         # result_pd.to_csv("Results-JSON-Cosine.csv")
         plt.show()
     print("FINISHED IN " + str(time.time() - t) + " SECONDS")
