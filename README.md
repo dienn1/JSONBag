@@ -5,10 +5,10 @@
 ## Overview
 Run **analysis_main.py** for the main results with PNNS using JSD.
 Uncomment the game you want to analyze (the script will only run with the first game in the list); change ``n`` to the number of runs (different train/test splits)
-(image)
+<br><br><img src="./misc/analysis-main-games.png?raw=true">
 
 Run **any_model_test.py** to test JSON-Bag with any other machine learning model. Choose the game same as above. Choose model the same way; any classification model can be plugged in, assuming the same API as sklearn.
-(image)
+<br><br><img src="./misc/any_model_test_param.png?raw=true">
 
 ## JSON-Bag Tokenizer
 The tokenizer is the function ``tokenize(...)``  in **tokenizer.py** that takes in a JSON object (loaded as ``dict``), the tokenization mode (``ordered, unordered, both, char``, more details in the paper), and the option for binning/pairing x, y coordinates in grid-based games, and **output a list of tokens**.
