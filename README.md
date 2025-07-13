@@ -26,7 +26,7 @@ All games have these features:
 - Game tick (engine specifics)
 - Turn count
 - each player's score at game over
-- rate of change and intercept of each player's scores throughout the game
+- rate of change and intercept of each player's scores throughout the game (except for Connect4)
 	- Scores of a player are recorded periodically throughout a game trajectory into a score vector $\mathbf{s}$, a linear regression model is fitted to predict $s_i$: $w \times i + b = s_i$, where $i$ is the index of the score. We extract $w$ and $b$ for each player as features.
 
 ### Game-specific features
