@@ -33,6 +33,6 @@ All games have these features:
 In the folder **const**, each game has a gamename_const.py with a list ``features`` containing game-specific handcrafted features.
 
 ## Game Data
-The games used for the experiments are implemented in [TAG Framework](https://github.com/GAIGResearch/TabletopGames). The fork used by the experiments is [link]. All data is generated with this fork. The specific parameters used for the playing agents can also be found there.
+The games used for the experiments are implemented in [TAG Framework](https://github.com/GAIGResearch/TabletopGames). The fork used by the experiments is https://github.com/dienn1/JSONBagTAGFork. All data is generated with this fork. The specific parameters used for the playing agents can also be found there.
 
 Due to size, the raw data is omitted here. In each game folder, there are some example raw game trajectories (concatenation of all JSON game states in a trajectory). The folders also include the full JSON-Bags of game trajectories
